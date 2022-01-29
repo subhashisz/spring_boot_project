@@ -5,7 +5,11 @@ import javax.servlet.ServletContextListener;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+/**
+ * 
+ * @author SUBHASHIS
+ *
+ */
 public class CustomListener implements ServletContextListener {
 
 	Logger logger = LoggerFactory.getLogger(CustomListener.class);
@@ -17,6 +21,6 @@ public class CustomListener implements ServletContextListener {
 
 	@Override
 	public void contextDestroyed(ServletContextEvent sce) {
-		logger.info("CustomListener is destroyed");
+		logger.info("CustomListener is destroyed",logger.getName());
 	}
 }

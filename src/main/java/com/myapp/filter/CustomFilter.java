@@ -12,7 +12,11 @@ import javax.servlet.ServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
-
+/**
+ * 
+ * @author SUBHASHIS
+ *
+ */
 @Component
 public class CustomFilter implements Filter {
 	Logger logger = LoggerFactory.getLogger(CustomFilter.class);
@@ -25,7 +29,7 @@ public class CustomFilter implements Filter {
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
-		logger.info("CustomFilter is invoked");
+		logger.info("CustomFilter is invoked",logger.getName());
 		chain.doFilter(request, response);
 	}
 }
