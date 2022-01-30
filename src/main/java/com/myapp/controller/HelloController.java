@@ -7,10 +7,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.myapp.model.HelloWorldBean;
+
 /**
  * 
  * @author SUBHASHIS
- *
+ * 
  */
 @RestController
 public class HelloController {
