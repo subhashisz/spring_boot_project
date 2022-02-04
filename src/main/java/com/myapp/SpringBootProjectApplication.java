@@ -20,11 +20,12 @@ public class SpringBootProjectApplication {
 		SpringApplication.run(SpringBootProjectApplication.class, args);
 	}
 
-	@Bean
-	public ServletListenerRegistrationBean<ServletContextListener> customListenerBean() {
-		ServletListenerRegistrationBean<ServletContextListener> bean = new ServletListenerRegistrationBean();
-		bean.setListener(new CustomListener());
-		return bean;
-	}
+	/*
+	 * @Bean public ServletListenerRegistrationBean<ServletContextListener>
+	 * customListenerBean() {
+	 * ServletListenerRegistrationBean<ServletContextListener> bean = new
+	 * ServletListenerRegistrationBean(); bean.setListener(new CustomListener());
+	 * return bean; }
+	 */
 
 }
