@@ -32,9 +32,8 @@ public class Student {
 
 	@Column(name = "email_address", nullable = false)
 	private String emailId;
-	
-	/*
-	 * @Embedded private Guardian guardian;
-	 */
+
+	@Embedded
+	private Guardian guardian;
 
 }
