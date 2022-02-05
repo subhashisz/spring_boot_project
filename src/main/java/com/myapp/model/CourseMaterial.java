@@ -1,6 +1,7 @@
 package com.myapp.model;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,12 +16,12 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-//@Entity
+@Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@ToString(exclude = "course")
+//@ToString(exclude = "course")
 public class CourseMaterial {
 
 	@Id
@@ -32,4 +33,5 @@ public class CourseMaterial {
 	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY, optional = false)
 	@JoinColumn(name = "course_id", referencedColumnName = "courseId")
 	private Course course;
+
 }

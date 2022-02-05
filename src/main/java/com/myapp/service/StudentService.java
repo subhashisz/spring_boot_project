@@ -2,6 +2,8 @@ package com.myapp.service;
 
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -77,6 +79,7 @@ public class StudentService {
 		return studentRepository.getStudentByEmailAddressNativeNamedParam(email);
 	}
 
+	@Transactional
 	public int updateStudentNameByEmailId(Student student) {
 		logger.info("LOG -> {} -------->updateStudentNameByEmailId ", logger.getName());
 		return studentRepository.updateStudentNameByEmailId(student.getFirstName(), student.getLastName(), student.getEmailId());

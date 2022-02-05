@@ -13,18 +13,19 @@ import com.myapp.model.CourseMaterial;
 class CourseMaterialRepositoryTest {
 
 	@Autowired
-	private CourseMaterialRepository repository;
+	CourseMaterialRepository courseMaterialRepository;
 
-	@Test
-	public void SaveCourseMaterial() {
-		Course course = Course.builder().title(".net").credit(6).build();
-		CourseMaterial courseMaterial = CourseMaterial.builder().url("www.example.com").course(course).build();
-		repository.save(courseMaterial);
+	//@Test
+	public void saveCourseMaterial() {
+		Course course = Course.builder().title("DSA").credit(5).build();
+		CourseMaterial courseMaterial = CourseMaterial.builder().url("www.google.com").course(course).build();
+		courseMaterialRepository.save(courseMaterial);
 	}
 
 	@Test
-	public void printAllCourseMaterials() {
-		List<CourseMaterial> courseMaterials = repository.findAll();
-		System.out.println("courseMaterials = " + courseMaterials);
+	public void findAllCourses() {
+		List<CourseMaterial> courseMaterials = courseMaterialRepository.findAll();
+		System.out.println(courseMaterials);
 	}
+
 }

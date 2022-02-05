@@ -5,7 +5,6 @@ import org.springframework.stereotype.Component;
 
 import com.myapp.service.CourseService;
 
-@Component
 public class CourseHelper {
 	
 	@Autowired

@@ -1,4 +1,0 @@
-2022-02-04T18:53:07.558+0530 INFO Starting SpringBootProjectApplication using Java 16.0.2 on DESKTOP-PSNOS5A with PID 7380 (C:\Users\SUBHASHIS\git\spring_boot_project\target\classes started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
-2022-02-04T18:53:07.558+0530 DEBUG Running with Spring Boot v2.5.9, Spring v5.3.15
-2022-02-04T18:53:07.558+0530 INFO No active profile set, falling back to default profiles: default
-2022-02-04T18:53:10.667+0530 INFO Started SpringBootProjectApplication in 3.217 seconds (JVM running for 186.445)

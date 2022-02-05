@@ -6,11 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.myapp.helper.CourseHelper;
 
-@RestController
-@RequestMapping("/course")
 public class CourseController {
 
-	@Autowired
 	private CourseHelper courseHelper;
 
 	public void printCourses() {

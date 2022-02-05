@@ -23,8 +23,9 @@ class StudentRepositoryTest {
 
 	@Test
 	public void saveStudentWithGuardian() {
-		Guardian guardian = Guardian.builder().email("nikhil@gmail.com").name("Nikhil").mobile("9999956324").build();
-		Student student = Student.builder().firstName("Shivam").emailId("shivam@gmail.com").lastName("Kumar").guardian(guardian).build();
+		Student student = Student.builder().firstName("Shivam").emailId("shivam@gmail.com").lastName("Kumar")
+				.guardian(Guardian.builder().email("nikhil@gmail.com").name("Nikhil").mobile("9999956324").build())
+				.build();
 		studentRepository.save(student);
 
 	}
@@ -79,7 +80,7 @@ class StudentRepositoryTest {
 
 	@Test
 	public void updateStudentNameByEmailIdTest() {
-		studentRepository.updateStudentNameByEmailId("sample","sample", "sample@gmail.com");
+		studentRepository.updateStudentNameByEmailId("sample", "sample", "sample@gmail.com");
 	}
 
 }
