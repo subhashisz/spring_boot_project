@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.myapp</groupId>
 	<artifactId>spring_boot_project</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>spring_boot_project</name>
 	<description>Spring Boot Project</description>
 	<properties>
