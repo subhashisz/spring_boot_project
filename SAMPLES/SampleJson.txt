@@ -1,0 +1,9 @@
+{
+	"__comment__": "save department",
+	"department": {
+		"departmentName": "IT",
+		"departmentAddress": "Bangalore",
+		"departmentCode": "007"
+	}
+}
+

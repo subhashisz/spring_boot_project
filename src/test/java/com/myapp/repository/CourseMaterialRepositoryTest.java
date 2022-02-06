@@ -22,7 +22,7 @@ class CourseMaterialRepositoryTest {
 		courseMaterialRepository.save(courseMaterial);
 	}
 
-	@Test
+	//@Test
 	public void findAllCourses() {
 		List<CourseMaterial> courseMaterials = courseMaterialRepository.findAll();
 		System.out.println(courseMaterials);

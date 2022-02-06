@@ -23,9 +23,10 @@ public class Teacher {
 	private String lastName;
 
 	/*
-	 * @OneToMany( cascade = CascadeType.ALL )
+	 * @OneToMany(cascade = CascadeType.ALL)
 	 * 
-	 * @JoinColumn( name = "teacher_id", referencedColumnName = "teacherId" )
-	 * private List<Course> courses;
+	 * @JoinColumn(name = "teacher_id", referencedColumnName = "teacherId") private
+	 * List<Course> courses;
 	 */
+
 }
