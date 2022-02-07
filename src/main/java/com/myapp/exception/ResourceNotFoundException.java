@@ -4,27 +4,27 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(value = HttpStatus.NOT_FOUND)
-public class DepartmentNotFoundException extends Exception {
+public class ResourceNotFoundException extends RuntimeException {
 
 	private static final long serialVersionUID = 1L;
 
-	public DepartmentNotFoundException() {
+	public ResourceNotFoundException() {
 		super();
 	}
 
-	public DepartmentNotFoundException(String message) {
+	public ResourceNotFoundException(String message) {
 		super(message);
 	}
 
-	public DepartmentNotFoundException(String message, Throwable cause) {
+	public ResourceNotFoundException(String message, Throwable cause) {
 		super(message, cause);
 	}
 
-	public DepartmentNotFoundException(Throwable cause) {
+	public ResourceNotFoundException(Throwable cause) {
 		super(cause);
 	}
 
-	protected DepartmentNotFoundException(String message, Throwable cause, boolean enableSuppression,
+	protected ResourceNotFoundException(String message, Throwable cause, boolean enableSuppression,
 			boolean writableStackTrace) {
 		super(message, cause, enableSuppression, writableStackTrace);
 	}

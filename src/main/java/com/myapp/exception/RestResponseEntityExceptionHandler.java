@@ -11,7 +11,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 import com.myapp.model.ErrorMessage;
 
 @ControllerAdvice
-@ResponseStatus
+@ResponseStatus(value = HttpStatus.NOT_FOUND)
 public class RestResponseEntityExceptionHandler extends ResponseEntityExceptionHandler {
 
 	@ExceptionHandler(DepartmentNotFoundException.class)

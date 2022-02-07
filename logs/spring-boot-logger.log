@@ -2114,3 +2114,538 @@ Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'springbootdb-qa'
 2022-02-07 03:00:59,854 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(6)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-02-07 03:00:59,862 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(6)-127.0.0.1] HikariPool-1 - Shutdown initiated...
 2022-02-07 03:00:59,879 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(6)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-02-07 11:07:04,875 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-02-07 11:07:04,883 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootProjectApplication using Java 16.0.2 on DESKTOP-PSNOS5A with PID 340 (C:\Users\SUBHASHIS\git\spring_boot_project\target\classes started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 11:07:04,886 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 11:07:04,887 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-02-07 11:07:05,010 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 11:07:05,011 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 11:07:05,012 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 11:07:05,015 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-07 11:07:05,016 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-07 11:07:07,163 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-07 11:07:07,369 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 188 ms. Found 6 JPA repository interfaces.
+2022-02-07 11:07:08,737 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-02-07 11:07:08,758 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:07:08,759 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-02-07 11:07:08,760 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-07 11:07:09,027 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-02-07 11:07:09,028 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4010 ms
+2022-02-07 11:07:10,029 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-07 11:07:10,153 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.33
+2022-02-07 11:07:10,499 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-07 11:07:10,736 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-02-07 11:07:11,494 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-02-07 11:07:11,532 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-07 11:07:13,585 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-07 11:07:13,602 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:07:14,949 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-07 11:07:17,263 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-02-07 11:07:17,282 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 12 endpoint(s) beneath base path '/actuator'
+2022-02-07 11:07:17,426 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:07:17,466 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-02-07 11:07:17,494 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootProjectApplication in 13.686 seconds (JVM running for 17.383)
+2022-02-07 11:10:01,045 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(12)-127.0.0.1] Application shutdown requested.
+2022-02-07 11:10:01,103 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(12)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:10:01,110 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-02-07 11:10:01,128 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-02-07 11:10:26,362 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-02-07 11:10:26,372 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootProjectApplication using Java 16.0.2 on DESKTOP-PSNOS5A with PID 9068 (C:\Users\SUBHASHIS\git\spring_boot_project\target\classes started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 11:10:26,374 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 11:10:26,374 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-02-07 11:10:26,531 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 11:10:26,532 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 11:10:26,532 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 11:10:26,536 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-07 11:10:26,536 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-07 11:10:28,565 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-07 11:10:28,762 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 179 ms. Found 6 JPA repository interfaces.
+2022-02-07 11:10:30,264 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-02-07 11:10:30,282 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:10:30,283 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-02-07 11:10:30,284 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-07 11:10:30,505 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-02-07 11:10:30,506 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3968 ms
+2022-02-07 11:10:31,313 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-07 11:10:31,421 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.33
+2022-02-07 11:10:31,676 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-07 11:10:31,920 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-02-07 11:10:32,531 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-02-07 11:10:32,563 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-07 11:10:34,308 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-07 11:10:34,324 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:10:35,650 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-07 11:10:37,984 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-02-07 11:10:38,003 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 12 endpoint(s) beneath base path '/actuator'
+2022-02-07 11:10:38,116 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:10:38,152 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-02-07 11:10:38,179 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootProjectApplication in 12.793 seconds (JVM running for 14.673)
+2022-02-07 11:11:01,652 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-07 11:11:01,653 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-02-07 11:11:01,656 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Completed initialization in 2 ms
+2022-02-07 11:11:01,666 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-2] CustomFilter is invoked
+2022-02-07 11:11:01,711 INFO com.myapp.controller.DepartmentController [http-nio-9000-exec-2] fetchDepartment() ----> com.myapp.controller.DepartmentController
+2022-02-07 11:11:01,712 INFO com.myapp.helper.DepartmentHelper [http-nio-9000-exec-2] fetchDepartment() ----> com.myapp.helper.DepartmentHelper
+2022-02-07 11:11:01,712 INFO com.myapp.service.DepartmentServiceImpl [http-nio-9000-exec-2] fetchDepartment() ----> com.myapp.service.DepartmentServiceImpl
+2022-02-07 11:12:21,838 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-5] CustomFilter is invoked
+2022-02-07 11:12:21,841 INFO com.myapp.controller.EmployeeController [http-nio-9000-exec-5] fetchEmployeeList() ---------> com.myapp.controller.EmployeeController
+2022-02-07 11:12:21,842 INFO com.myapp.helper.EmployeeHelper [http-nio-9000-exec-5] fetchEmployeeList()----------->com.myapp.helper.EmployeeHelper
+2022-02-07 11:12:21,842 INFO com.myapp.service.EmployeeServiceImpl [http-nio-9000-exec-5] fetchEmployeeList()------->com.myapp.service.EmployeeServiceImpl
+2022-02-07 11:18:22,302 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(16)-127.0.0.1] Application shutdown requested.
+2022-02-07 11:18:22,371 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(16)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:18:22,385 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-02-07 11:18:22,413 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-02-07 11:41:15,759 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-02-07 11:41:15,762 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootProjectApplication using Java 16.0.2 on DESKTOP-PSNOS5A with PID 6684 (C:\Users\SUBHASHIS\git\spring_boot_project\target\classes started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 11:41:15,763 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 11:41:15,764 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-02-07 11:41:15,876 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 11:41:15,877 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 11:41:15,878 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 11:41:15,881 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-07 11:41:15,882 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-07 11:41:17,777 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-07 11:41:17,957 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 163 ms. Found 6 JPA repository interfaces.
+2022-02-07 11:41:19,207 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-02-07 11:41:19,224 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:41:19,225 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-02-07 11:41:19,226 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-07 11:41:19,419 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-02-07 11:41:19,420 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3535 ms
+2022-02-07 11:41:20,002 INFO com.myapp.listner.CustomListener [restartedMain] CustomListener is initialized
+2022-02-07 11:41:20,297 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-07 11:41:20,405 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.33
+2022-02-07 11:41:20,667 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-07 11:41:20,873 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-02-07 11:41:21,529 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-02-07 11:41:21,557 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-07 11:41:23,305 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-07 11:41:23,322 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:41:24,614 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-07 11:41:27,050 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-02-07 11:41:27,069 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 12 endpoint(s) beneath base path '/actuator'
+2022-02-07 11:41:27,191 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:41:27,228 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-02-07 11:41:27,254 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootProjectApplication in 12.459 seconds (JVM running for 14.18)
+2022-02-07 11:41:34,722 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-07 11:41:34,723 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-02-07 11:41:34,725 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Completed initialization in 2 ms
+2022-02-07 11:41:34,741 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-2] CustomFilter is invoked
+2022-02-07 11:41:34,823 INFO com.myapp.controller.EmployeeController [http-nio-9000-exec-2] saveEmployee()----------->com.myapp.controller.EmployeeController
+2022-02-07 11:41:34,824 INFO com.myapp.helper.EmployeeHelper [http-nio-9000-exec-2] saveEmployee()----------->com.myapp.helper.EmployeeHelper
+2022-02-07 11:41:34,824 INFO com.myapp.service.EmployeeServiceImpl [http-nio-9000-exec-2] saveEmployee()------->com.myapp.service.EmployeeServiceImpl
+2022-02-07 11:42:15,754 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(9)-127.0.0.1] Application shutdown requested.
+2022-02-07 11:42:15,799 INFO com.myapp.listner.CustomListener [RMI TCP Connection(9)-127.0.0.1] CustomListener is destroyed
+2022-02-07 11:42:15,833 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(9)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:42:15,844 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-02-07 11:42:15,866 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-02-07 11:42:33,265 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-02-07 11:42:33,284 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootProjectApplication using Java 16.0.2 on DESKTOP-PSNOS5A with PID 2564 (C:\Users\SUBHASHIS\git\spring_boot_project\target\classes started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 11:42:33,285 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 11:42:33,287 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-02-07 11:42:33,399 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 11:42:33,399 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 11:42:33,400 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 11:42:33,403 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-07 11:42:33,404 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-07 11:42:35,392 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-07 11:42:35,602 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 191 ms. Found 6 JPA repository interfaces.
+2022-02-07 11:42:36,913 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-02-07 11:42:36,934 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:42:36,935 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-02-07 11:42:36,935 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-07 11:42:37,123 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-02-07 11:42:37,124 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3718 ms
+2022-02-07 11:42:37,749 INFO com.myapp.listner.CustomListener [restartedMain] CustomListener is initialized
+2022-02-07 11:42:38,051 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-07 11:42:38,158 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.33
+2022-02-07 11:42:38,432 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-07 11:42:38,640 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-02-07 11:42:39,303 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-02-07 11:42:39,332 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-07 11:42:41,120 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-07 11:42:41,137 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:42:42,491 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-07 11:42:44,858 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-02-07 11:42:44,883 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 12 endpoint(s) beneath base path '/actuator'
+2022-02-07 11:42:45,002 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:42:45,040 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-02-07 11:42:45,075 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootProjectApplication in 12.805 seconds (JVM running for 15.266)
+2022-02-07 11:43:36,754 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-07 11:43:36,754 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-02-07 11:43:36,760 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Completed initialization in 5 ms
+2022-02-07 11:43:36,770 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-2] CustomFilter is invoked
+2022-02-07 11:43:36,984 INFO com.myapp.controller.EmployeeController [http-nio-9000-exec-2] saveEmployee()----------->com.myapp.controller.EmployeeController
+2022-02-07 11:43:36,985 INFO com.myapp.helper.EmployeeHelper [http-nio-9000-exec-2] saveEmployee()----------->com.myapp.helper.EmployeeHelper
+2022-02-07 11:43:36,985 INFO com.myapp.service.EmployeeServiceImpl [http-nio-9000-exec-2] saveEmployee()------->com.myapp.service.EmployeeServiceImpl
+2022-02-07 11:45:42,552 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2022-02-07 11:45:42,591 INFO com.myapp.listner.CustomListener [RMI TCP Connection(10)-127.0.0.1] CustomListener is destroyed
+2022-02-07 11:45:42,624 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(10)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:45:42,633 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-02-07 11:45:42,664 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-02-07 11:45:59,777 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-02-07 11:45:59,782 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootProjectApplication using Java 16.0.2 on DESKTOP-PSNOS5A with PID 8040 (C:\Users\SUBHASHIS\git\spring_boot_project\target\classes started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 11:45:59,783 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 11:45:59,783 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-02-07 11:45:59,912 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 11:45:59,915 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 11:45:59,915 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 11:45:59,919 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-07 11:45:59,921 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-07 11:46:01,842 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-07 11:46:02,039 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 180 ms. Found 6 JPA repository interfaces.
+2022-02-07 11:46:03,287 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-02-07 11:46:03,303 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:46:03,304 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-02-07 11:46:03,305 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-07 11:46:03,524 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-02-07 11:46:03,525 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3602 ms
+2022-02-07 11:46:04,100 INFO com.myapp.listner.CustomListener [restartedMain] CustomListener is initialized
+2022-02-07 11:46:04,383 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-07 11:46:04,494 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.33
+2022-02-07 11:46:04,741 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-07 11:46:04,971 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-02-07 11:46:05,598 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-02-07 11:46:05,627 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-07 11:46:07,355 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-07 11:46:07,372 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:46:08,668 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-07 11:46:10,879 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-02-07 11:46:10,906 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 12 endpoint(s) beneath base path '/actuator'
+2022-02-07 11:46:11,016 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:46:11,052 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-02-07 11:46:11,079 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootProjectApplication in 12.29 seconds (JVM running for 14.422)
+2022-02-07 11:46:17,633 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-07 11:46:17,634 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-02-07 11:46:17,639 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Completed initialization in 4 ms
+2022-02-07 11:46:17,652 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-2] CustomFilter is invoked
+2022-02-07 11:46:17,873 INFO com.myapp.controller.EmployeeController [http-nio-9000-exec-2] saveEmployee()----------->com.myapp.controller.EmployeeController
+2022-02-07 11:46:17,874 INFO com.myapp.controller.EmployeeController [http-nio-9000-exec-2] Employee(employeeId=null, firstName=null, lastName=null, emailId=null)
+2022-02-07 11:46:17,874 INFO com.myapp.helper.EmployeeHelper [http-nio-9000-exec-2] saveEmployee()----------->com.myapp.helper.EmployeeHelper
+2022-02-07 11:46:17,875 INFO com.myapp.service.EmployeeServiceImpl [http-nio-9000-exec-2] saveEmployee()------->com.myapp.service.EmployeeServiceImpl
+2022-02-07 11:48:18,793 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-5] CustomFilter is invoked
+2022-02-07 11:48:18,800 INFO com.myapp.controller.DepartmentController [http-nio-9000-exec-5] saveDepartment() ----> com.myapp.controller.DepartmentController
+2022-02-07 11:48:18,801 INFO com.myapp.helper.DepartmentHelper [http-nio-9000-exec-5] saveDepartment() ----> com.myapp.helper.DepartmentHelper
+2022-02-07 11:48:18,802 INFO com.myapp.service.DepartmentServiceImpl [http-nio-9000-exec-5] saveDepartment() ----> com.myapp.service.DepartmentServiceImpl
+2022-02-07 11:52:36,338 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(16)-127.0.0.1] Application shutdown requested.
+2022-02-07 11:52:36,372 INFO com.myapp.listner.CustomListener [RMI TCP Connection(16)-127.0.0.1] CustomListener is destroyed
+2022-02-07 11:52:36,398 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(16)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:52:36,404 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-02-07 11:52:36,420 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-02-07 11:54:04,203 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-02-07 11:54:04,203 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootProjectApplication using Java 16.0.2 on DESKTOP-PSNOS5A with PID 7488 (C:\Users\SUBHASHIS\git\spring_boot_project\target\classes started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 11:54:04,210 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 11:54:04,211 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-02-07 11:54:04,343 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 11:54:04,344 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 11:54:04,345 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 11:54:04,348 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-07 11:54:04,348 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-07 11:54:06,269 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-07 11:54:06,459 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 173 ms. Found 6 JPA repository interfaces.
+2022-02-07 11:54:07,690 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-02-07 11:54:07,709 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:54:07,711 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-02-07 11:54:07,712 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-07 11:54:07,921 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-02-07 11:54:07,922 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3572 ms
+2022-02-07 11:54:08,503 INFO com.myapp.listner.CustomListener [restartedMain] CustomListener is initialized
+2022-02-07 11:54:08,775 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-07 11:54:08,879 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.33
+2022-02-07 11:54:09,148 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-07 11:54:09,368 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-02-07 11:54:09,997 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-02-07 11:54:10,026 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-07 11:54:11,765 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-07 11:54:11,785 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:54:13,655 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-07 11:54:16,582 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-02-07 11:54:16,601 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 12 endpoint(s) beneath base path '/actuator'
+2022-02-07 11:54:16,713 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:54:16,790 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-02-07 11:54:16,829 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootProjectApplication in 13.621 seconds (JVM running for 15.877)
+2022-02-07 11:54:22,284 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-07 11:54:22,286 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-02-07 11:54:22,291 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Completed initialization in 4 ms
+2022-02-07 11:54:22,310 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-2] CustomFilter is invoked
+2022-02-07 11:54:22,494 INFO com.myapp.controller.EmployeeController [http-nio-9000-exec-2] saveEmployee()----------->com.myapp.controller.EmployeeController
+2022-02-07 11:54:22,495 INFO com.myapp.controller.EmployeeController [http-nio-9000-exec-2] Employee(employeeId=null, firstName=null, lastName=null, emailId=null)
+2022-02-07 11:54:22,495 INFO com.myapp.helper.EmployeeHelper [http-nio-9000-exec-2] saveEmployee()----------->com.myapp.helper.EmployeeHelper
+2022-02-07 11:54:22,495 INFO com.myapp.service.EmployeeServiceImpl [http-nio-9000-exec-2] saveEmployee()------->com.myapp.service.EmployeeServiceImpl
+2022-02-07 11:54:51,864 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(9)-127.0.0.1] Application shutdown requested.
+2022-02-07 11:54:51,901 INFO com.myapp.listner.CustomListener [RMI TCP Connection(9)-127.0.0.1] CustomListener is destroyed
+2022-02-07 11:54:51,942 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(9)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:54:51,952 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-02-07 11:54:51,976 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-02-07 11:55:06,793 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-02-07 11:55:06,804 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootProjectApplication using Java 16.0.2 on DESKTOP-PSNOS5A with PID 10468 (C:\Users\SUBHASHIS\git\spring_boot_project\target\classes started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 11:55:06,805 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 11:55:06,806 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-02-07 11:55:06,914 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 11:55:06,915 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 11:55:06,916 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 11:55:06,919 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-07 11:55:06,920 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-07 11:55:09,066 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-07 11:55:09,342 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 253 ms. Found 6 JPA repository interfaces.
+2022-02-07 11:55:10,739 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-02-07 11:55:10,756 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:55:10,757 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-02-07 11:55:10,758 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-07 11:55:10,969 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-02-07 11:55:10,970 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4047 ms
+2022-02-07 11:55:11,613 INFO com.myapp.listner.CustomListener [restartedMain] CustomListener is initialized
+2022-02-07 11:55:11,883 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-07 11:55:11,984 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.33
+2022-02-07 11:55:12,249 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-07 11:55:12,458 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-02-07 11:55:13,099 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-02-07 11:55:13,128 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-07 11:55:15,161 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-07 11:55:15,181 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:55:16,609 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-07 11:55:19,063 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-02-07 11:55:19,120 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 12 endpoint(s) beneath base path '/actuator'
+2022-02-07 11:55:19,247 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:55:19,287 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-02-07 11:55:19,317 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootProjectApplication in 13.5 seconds (JVM running for 15.768)
+2022-02-07 11:55:29,204 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-07 11:55:29,205 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-02-07 11:55:29,207 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Completed initialization in 2 ms
+2022-02-07 11:55:29,220 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-2] CustomFilter is invoked
+2022-02-07 11:55:29,394 INFO com.myapp.controller.EmployeeController [http-nio-9000-exec-2] saveEmployee()----------->com.myapp.controller.EmployeeController
+2022-02-07 11:55:29,395 INFO com.myapp.controller.EmployeeController [http-nio-9000-exec-2] Employee(employeeId=null, firstName=null, lastName=null, emailId=null)
+2022-02-07 11:55:29,395 INFO com.myapp.helper.EmployeeHelper [http-nio-9000-exec-2] saveEmployee()----------->com.myapp.helper.EmployeeHelper
+2022-02-07 11:55:29,396 INFO com.myapp.service.EmployeeServiceImpl [http-nio-9000-exec-2] saveEmployee()------->com.myapp.service.EmployeeServiceImpl
+2022-02-07 11:56:09,844 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-3] CustomFilter is invoked
+2022-02-07 11:56:09,848 INFO com.myapp.controller.EmployeeController [http-nio-9000-exec-3] saveEmployee()----------->com.myapp.controller.EmployeeController
+2022-02-07 11:56:09,849 INFO com.myapp.controller.EmployeeController [http-nio-9000-exec-3] Employee(employeeId=null, firstName=Mark, lastName=stuart, emailId=example@email.com)
+2022-02-07 11:56:09,849 INFO com.myapp.helper.EmployeeHelper [http-nio-9000-exec-3] saveEmployee()----------->com.myapp.helper.EmployeeHelper
+2022-02-07 11:56:09,850 INFO com.myapp.service.EmployeeServiceImpl [http-nio-9000-exec-3] saveEmployee()------->com.myapp.service.EmployeeServiceImpl
+2022-02-07 11:56:41,231 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2022-02-07 11:56:41,276 INFO com.myapp.listner.CustomListener [RMI TCP Connection(10)-127.0.0.1] CustomListener is destroyed
+2022-02-07 11:56:41,300 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(10)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:56:41,306 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-02-07 11:56:41,322 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-02-07 11:57:43,272 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-02-07 11:57:43,284 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootProjectApplication using Java 16.0.2 on DESKTOP-PSNOS5A with PID 3672 (C:\Users\SUBHASHIS\git\spring_boot_project\target\classes started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 11:57:43,286 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 11:57:43,286 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-02-07 11:57:43,411 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 11:57:43,412 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 11:57:43,413 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 11:57:43,417 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-07 11:57:43,417 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-07 11:57:45,488 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-07 11:57:45,684 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 178 ms. Found 6 JPA repository interfaces.
+2022-02-07 11:57:46,988 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-02-07 11:57:47,005 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:57:47,006 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-02-07 11:57:47,006 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-07 11:57:47,218 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-02-07 11:57:47,219 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3800 ms
+2022-02-07 11:57:47,930 INFO com.myapp.listner.CustomListener [restartedMain] CustomListener is initialized
+2022-02-07 11:57:48,273 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-07 11:57:48,418 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.33
+2022-02-07 11:57:48,754 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-07 11:57:48,986 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-02-07 11:57:49,630 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-02-07 11:57:49,662 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-07 11:57:51,479 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-07 11:57:51,505 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:57:52,867 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-07 11:57:55,254 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-02-07 11:57:55,274 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 12 endpoint(s) beneath base path '/actuator'
+2022-02-07 11:57:55,397 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:57:55,432 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-02-07 11:57:55,460 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootProjectApplication in 13.152 seconds (JVM running for 15.454)
+2022-02-07 11:58:00,929 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-07 11:58:00,930 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-02-07 11:58:00,932 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Completed initialization in 2 ms
+2022-02-07 11:58:00,942 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-2] CustomFilter is invoked
+2022-02-07 11:58:45,778 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-3] CustomFilter is invoked
+2022-02-07 11:59:25,950 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2022-02-07 11:59:25,983 INFO com.myapp.listner.CustomListener [RMI TCP Connection(10)-127.0.0.1] CustomListener is destroyed
+2022-02-07 11:59:26,011 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(10)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:59:26,027 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-02-07 11:59:26,048 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-02-07 11:59:47,361 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-02-07 11:59:47,369 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootProjectApplication using Java 16.0.2 on DESKTOP-PSNOS5A with PID 8712 (C:\Users\SUBHASHIS\git\spring_boot_project\target\classes started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 11:59:47,370 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 11:59:47,371 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-02-07 11:59:47,481 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 11:59:47,482 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 11:59:47,482 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 11:59:47,485 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-07 11:59:47,487 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-07 11:59:49,405 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-07 11:59:49,604 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 181 ms. Found 6 JPA repository interfaces.
+2022-02-07 11:59:50,888 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-02-07 11:59:50,904 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:59:50,905 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-02-07 11:59:50,905 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-07 11:59:51,128 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-02-07 11:59:51,129 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3641 ms
+2022-02-07 11:59:51,717 INFO com.myapp.listner.CustomListener [restartedMain] CustomListener is initialized
+2022-02-07 11:59:51,985 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-07 11:59:52,100 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.33
+2022-02-07 11:59:52,353 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-07 11:59:52,558 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-02-07 11:59:53,215 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-02-07 11:59:53,244 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-07 11:59:55,064 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-07 11:59:55,087 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 11:59:56,372 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-07 11:59:58,610 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-02-07 11:59:58,634 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 12 endpoint(s) beneath base path '/actuator'
+2022-02-07 11:59:58,748 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-02-07 11:59:58,795 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-02-07 11:59:58,826 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootProjectApplication in 12.427 seconds (JVM running for 14.963)
+2022-02-07 12:00:48,515 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-07 12:00:48,516 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-02-07 12:00:48,519 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Completed initialization in 3 ms
+2022-02-07 12:00:48,530 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-2] CustomFilter is invoked
+2022-02-07 12:01:44,285 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2022-02-07 12:01:44,328 INFO com.myapp.listner.CustomListener [RMI TCP Connection(10)-127.0.0.1] CustomListener is destroyed
+2022-02-07 12:01:44,357 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(10)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 12:01:44,365 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-02-07 12:01:44,386 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-02-07 12:02:18,133 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-02-07 12:02:18,136 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerTest using Java 16.0.2 on DESKTOP-PSNOS5A with PID 5128 (started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 12:02:18,138 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 12:02:18,139 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2022-02-07 12:02:18,219 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 12:02:18,220 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 12:02:18,222 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 12:02:24,875 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2022-02-07 12:02:24,876 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2022-02-07 12:02:24,884 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 7 ms
+2022-02-07 12:02:25,056 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentControllerTest in 8.551 seconds (JVM running for 11.898)
+2022-02-07 12:02:25,367 INFO com.myapp.filter.CustomFilter [main] CustomFilter is invoked
+2022-02-07 12:02:25,670 INFO com.myapp.controller.DepartmentController [main] saveDepartment() ----> com.myapp.controller.DepartmentController
+2022-02-07 12:02:25,793 INFO com.myapp.filter.CustomFilter [main] CustomFilter is invoked
+2022-02-07 12:02:25,802 INFO com.myapp.controller.DepartmentController [main] fetchDepartmentById() ----> com.myapp.controller.DepartmentController
+2022-02-07 12:02:26,000 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.myapp.repository.DepartmentRepositoryTest], using SpringBootContextLoader
+2022-02-07 12:02:26,005 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.myapp.repository.DepartmentRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-02-07 12:02:26,007 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.myapp.repository.DepartmentRepositoryTest]: DepartmentRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-02-07 12:02:26,114 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.myapp.SpringBootProjectApplication for test class com.myapp.repository.DepartmentRepositoryTest
+2022-02-07 12:02:26,119 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-02-07 12:02:26,130 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@65f5cae3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6630dd28, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5909ae90, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4489f60f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@fe08eaf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6fd9dbe6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7b3085a3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@70022d44, org.springframework.test.context.event.EventPublishingTestExecutionListener@7b1c501d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5abbb273, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@25d9291a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@445058e8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5d5574c7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5a7a6d34, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@36871e98]
+2022-02-07 12:02:26,352 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest using Java 16.0.2 on DESKTOP-PSNOS5A with PID 5128 (started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 12:02:26,353 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 12:02:26,355 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2022-02-07 12:02:26,365 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 12:02:26,366 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 12:02:26,368 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 12:02:27,276 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-07 12:02:27,636 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 334 ms. Found 6 JPA repository interfaces.
+2022-02-07 12:02:28,462 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-07 12:02:28,685 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.33
+2022-02-07 12:02:28,815 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-07 12:02:29,227 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-02-07 12:02:30,194 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-02-07 12:02:30,263 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-07 12:02:32,847 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-07 12:02:32,867 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 12:02:35,139 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentRepositoryTest in 8.956 seconds (JVM running for 21.981)
+2022-02-07 12:02:35,171 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.myapp.service.DepartmentServiceTest], using SpringBootContextLoader
+2022-02-07 12:02:35,173 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.myapp.service.DepartmentServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-02-07 12:02:35,175 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.myapp.service.DepartmentServiceTest]: DepartmentServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-02-07 12:02:35,204 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.myapp.SpringBootProjectApplication for test class com.myapp.service.DepartmentServiceTest
+2022-02-07 12:02:35,240 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-02-07 12:02:35,241 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@175c4ae5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@21bf1b1f, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2b33e616, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@c1d9c40, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@79e3f444, org.springframework.test.context.support.DirtiesContextTestExecutionListener@205d6f84, org.springframework.test.context.transaction.TransactionalTestExecutionListener@14ea3ecf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@74f54f8e, org.springframework.test.context.event.EventPublishingTestExecutionListener@1252d480, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@59b8a801, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1c61f9bf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@42365c82, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@46c47690, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5aa026e9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@499f9003]
+2022-02-07 12:02:35,427 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest using Java 16.0.2 on DESKTOP-PSNOS5A with PID 5128 (started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 12:02:35,428 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 12:02:35,429 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2022-02-07 12:02:35,438 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 12:02:35,439 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 12:02:35,440 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 12:02:37,160 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-07 12:02:37,243 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81 ms. Found 6 JPA repository interfaces.
+2022-02-07 12:02:38,350 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-07 12:02:38,370 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2022-02-07 12:02:38,427 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2022-02-07 12:02:38,429 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-07 12:02:39,244 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-07 12:02:39,247 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 12:02:40,545 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-07 12:02:45,118 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 12 endpoint(s) beneath base path '/actuator'
+2022-02-07 12:02:45,262 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentServiceTest in 10.011 seconds (JVM running for 32.103)
+2022-02-07 12:02:45,469 INFO com.myapp.service.DepartmentServiceImpl [main] fetchDepartmentByName()-----> com.myapp.service.DepartmentServiceImpl
+2022-02-07 12:02:45,489 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.myapp.SpringBootProjectApplicationTests], using SpringBootContextLoader
+2022-02-07 12:02:45,492 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.myapp.SpringBootProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-02-07 12:02:45,494 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.myapp.SpringBootProjectApplicationTests]: SpringBootProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-02-07 12:02:45,585 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.myapp.SpringBootProjectApplication for test class com.myapp.SpringBootProjectApplicationTests
+2022-02-07 12:02:45,590 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-02-07 12:02:45,594 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2b1aa390, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5e1d6ace, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@221c097f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7f3aa737, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1428d63, org.springframework.test.context.support.DirtiesContextTestExecutionListener@34bcdc9f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@76296c86, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5c807e6b, org.springframework.test.context.event.EventPublishingTestExecutionListener@49bcd90d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1bb6bc81, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@26c6be2d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@796affb8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@56313529, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@784dd9da, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6be93728]
+2022-02-07 12:02:45,761 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBootProjectApplicationTests using Java 16.0.2 on DESKTOP-PSNOS5A with PID 5128 (started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 12:02:45,763 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 12:02:45,765 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2022-02-07 12:02:45,776 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 12:02:45,781 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 12:02:45,782 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 12:02:47,609 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-07 12:02:47,851 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 201 ms. Found 6 JPA repository interfaces.
+2022-02-07 12:02:48,516 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-07 12:02:48,556 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Starting...
+2022-02-07 12:02:48,690 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Start completed.
+2022-02-07 12:02:48,691 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-07 12:02:49,276 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-07 12:02:49,277 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 12:02:50,276 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-07 12:02:52,415 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 12 endpoint(s) beneath base path '/actuator'
+2022-02-07 12:02:52,495 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBootProjectApplicationTests in 6.894 seconds (JVM running for 39.337)
+2022-02-07 12:02:52,572 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 12:02:52,576 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-02-07 12:02:52,616 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-02-07 12:02:52,641 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 12:02:52,645 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2022-02-07 12:02:52,688 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2022-02-07 12:02:52,701 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 12:02:52,704 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-3 - Shutdown initiated...
+2022-02-07 12:02:52,727 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-3 - Shutdown completed.
+2022-02-07 12:03:17,541 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-02-07 12:03:17,552 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootProjectApplication using Java 16.0.2 on DESKTOP-PSNOS5A with PID 10596 (C:\Users\SUBHASHIS\git\spring_boot_project\target\classes started by SUBHASHIS in C:\Users\SUBHASHIS\git\spring_boot_project)
+2022-02-07 12:03:17,553 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.9, Spring v5.3.15
+2022-02-07 12:03:17,554 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: dev
+2022-02-07 12:03:17,674 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 52:15]
+2022-02-07 12:03:17,675 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 36:13]
+2022-02-07 12:03:17,675 WARN org.springframework.boot.logging.DeferredLog [restartedMain] Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 19:13]
+2022-02-07 12:03:17,679 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-07 12:03:17,680 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-07 12:03:19,601 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-07 12:03:19,807 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 189 ms. Found 6 JPA repository interfaces.
+2022-02-07 12:03:21,074 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9000 (http)
+2022-02-07 12:03:21,090 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2022-02-07 12:03:21,091 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-02-07 12:03:21,091 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-07 12:03:21,291 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-02-07 12:03:21,293 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3610 ms
+2022-02-07 12:03:21,897 INFO com.myapp.listner.CustomListener [restartedMain] CustomListener is initialized
+2022-02-07 12:03:22,180 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-07 12:03:22,288 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.33
+2022-02-07 12:03:22,562 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-07 12:03:22,779 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-02-07 12:03:23,411 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-02-07 12:03:23,441 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-07 12:03:25,264 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-07 12:03:25,282 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 12:03:26,589 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-07 12:03:28,959 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-02-07 12:03:28,978 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 12 endpoint(s) beneath base path '/actuator'
+2022-02-07 12:03:29,091 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2022-02-07 12:03:29,151 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9000 (http) with context path ''
+2022-02-07 12:03:29,188 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootProjectApplication in 12.606 seconds (JVM running for 14.861)
+2022-02-07 12:03:39,800 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-07 12:03:39,801 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-02-07 12:03:39,806 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9000-exec-2] Completed initialization in 3 ms
+2022-02-07 12:03:39,821 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-2] CustomFilter is invoked
+2022-02-07 12:04:05,736 INFO com.myapp.filter.CustomFilter [http-nio-9000-exec-3] CustomFilter is invoked
+2022-02-07 12:04:05,744 INFO com.myapp.controller.DepartmentController [http-nio-9000-exec-3] fetchDepartment() ----> com.myapp.controller.DepartmentController
+2022-02-07 12:04:05,745 INFO com.myapp.helper.DepartmentHelper [http-nio-9000-exec-3] fetchDepartment() ----> com.myapp.helper.DepartmentHelper
+2022-02-07 12:04:05,746 INFO com.myapp.service.DepartmentServiceImpl [http-nio-9000-exec-3] fetchDepartment() ----> com.myapp.service.DepartmentServiceImpl
+2022-02-07 12:04:52,987 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2022-02-07 12:04:53,020 INFO com.myapp.listner.CustomListener [RMI TCP Connection(10)-127.0.0.1] CustomListener is destroyed
+2022-02-07 12:04:53,064 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(10)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-07 12:04:53,072 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-02-07 12:04:53,094 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
